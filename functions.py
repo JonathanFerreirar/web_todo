@@ -18,10 +18,7 @@ def get_todos(filepath: str = FILEPATH):
     return todos_local
 
 
-type_write = NewType("type_write", Union[str | list[str]])
-
-
-def write_todos(argument: type_write, filepath: str = FILEPATH):
+def write_todos(argument: str | list[str], filepath: str = FILEPATH):
     """
     :param argument: str or lis[str]
     :param filepath: str

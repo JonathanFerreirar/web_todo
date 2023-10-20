@@ -18,7 +18,7 @@ def get_todos(filepath: str = FILEPATH):
     return todos_local
 
 
-def write_todos(argument: str | list[str], filepath: str = FILEPATH):
+def write_todos(argument: str, filepath: str = FILEPATH):
     """
     :param argument: str or lis[str]
     :param filepath: str
